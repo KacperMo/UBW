@@ -1,0 +1,2 @@
+# UBW
+Uczelniana Baza Wiedzy
