@@ -203,81 +203,84 @@
     </div>
     <!--================ End Popular Courses Area =================-->
 
-    <!--================ Start Registration Area =================-->
-    <div class="section_gap registration_area">
+     <!--================ Start Events Area =================-->
+     <div class="events_area">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-7">
-            <div class="row clock_sec clockdiv" id="clockdiv">
-              <div class="col-lg-12">
-                <h1 class="mb-3">Register Now</h1>
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3 text-white">Wydarzenia</h2>
+              <p>
+                W najbliszym czasie
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="single_event position-relative">
+              <div class="event_thumb">
+                <img src="img/event/e1.jpg" alt="" />
+              </div>
+              <div class="event_details">
+                <div class="d-flex mb-4">
+                  <div class="date"><span>15</span> sty</div>
+
+                  <div class="time-location">
+                    <p>
+                      <span class="ti-time mr-2"></span> 12:00  - 12:30 
+                    </p>
+                    <p>
+                      <span class="ti-location-pin mr-2"></span> UEK - Nowa Aula
+                    </p>
+                  </div>
+                </div>
                 <p>
-                  There is a moment in the life of any aspiring astronomer that
-                  it is time to buy that first telescope. It’s exciting to think
-                  about setting up your own viewing station.
+                  Spotkanie organizacyjne, dyskusje na temat rozbudowy i rozwoju UBW.
+                    Strategie i plany na przyszłość. Przyjdź i podziel się z nami swoimi uwagami!
                 </p>
-              </div>
-              <div class="col clockinner1 clockinner">
-                <h1 class="days">150</h1>
-                <span class="smalltext">Days</span>
-              </div>
-              <div class="col clockinner clockinner1">
-                <h1 class="hours">23</h1>
-                <span class="smalltext">Hours</span>
-              </div>
-              <div class="col clockinner clockinner1">
-                <h1 class="minutes">47</h1>
-                <span class="smalltext">Mins</span>
-              </div>
-              <div class="col clockinner clockinner1">
-                <h1 class="seconds">59</h1>
-                <span class="smalltext">Secs</span>
+                <a href="#" class="primary-btn rounded-0 mt-3">Czytaj więcej</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 offset-lg-1">
-            <div class="register_form">
-              <h3>Courses for Free</h3>
-              <p>It is high time for learning</p>
-              <form
-                class="form_area"
-                id="myForm"
-                action="mail.php"
-                method="post"
-              >
-                <div class="row">
-                  <div class="col-lg-12 form_group">
-                    <input
-                      name="name"
-                      placeholder="Your Name"
-                      required=""
-                      type="text"
-                    />
-                    <input
-                      name="name"
-                      placeholder="Your Phone Number"
-                      required=""
-                      type="tel"
-                    />
-                    <input
-                      name="email"
-                      placeholder="Your Email Address"
-                      pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                      required=""
-                      type="email"
-                    />
-                  </div>
-                  <div class="col-lg-12 text-center">
-                    <button class="primary-btn">Submit</button>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_event position-relative">
+              <div class="event_thumb">
+                <img src="img/event/e2.jpg" alt="" />
+              </div>
+              <div class="event_details">
+                <div class="d-flex mb-4">
+                  <div class="date"><span>15</span> sty</div>
+
+                  <div class="time-location">
+                    <p>
+                      <span class="ti-time mr-2"></span> 12:00  - 12:30 
+                    </p>
+                    <p>
+                      <span class="ti-location-pin mr-2"></span> UEK - Nowa Aula
+                    </p>
                   </div>
                 </div>
-              </form>
+                <p>
+                  Spotkanie organizacyjne, dyskusje na temat rozbudowy i rozwoju UBW.
+                    Strategie i plany na przyszłość. Przyjdź i podziel się z nami swoimi uwagami!
+                </p>
+                <a href="#" class="primary-btn rounded-0 mt-3">Czytaj więcej</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="text-center pt-lg-5 pt-3">
+              <a href="#" class="event-link">
+                View All Event <img src="img/next.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--================ End Registration Area =================-->
+    <!--================ End Events Area =================-->
 
           <!--================ Start Testimonial Area =================-->
     <div class="testimonial_area section_gap">
@@ -285,9 +288,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="main_title">
-              <h2 class="mb-3">Client say about me</h2>
+              <h2 class="mb-3">Komantarze na nasz temat</h2>
               <p>
-                Replenish man have thing gathering lights yielding shall you
+                Zobacz dlaczego warto działać z nami!
               </p>
             </div>
           </div>
@@ -302,11 +305,11 @@
                 </div>
                 <div class="col-lg-8">
                   <div class="testi_text">
-                    <h4>Elite Martin</h4>
+                    <h4>dr Hab. Adam Kowalski</h4>
                     <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
+                      Dzięki temu portalowi udało nam się znaleźć zaangarzowanych i solidnych pracowników.
+                      <br>
+                      <b>Solvo Sp. z.o.o</b>
                     </p>
                   </div>
                 </div>
@@ -319,11 +322,11 @@
                 </div>
                 <div class="col-lg-8">
                   <div class="testi_text">
-                    <h4>Davil Saden</h4>
+                    <h4> Michał Kowalski</h4>
                     <p>
-                      Him, made can't called over won't there on divide there
-                      male fish beast own his day third seed sixth seas unto.
-                      Saw from
+                      Jesteśmy bardzo zadowoleni ze współpracy.
+                      Oszczędzamy bardzo wiele czasu, poszukując nowej kadry.
+                      <b> CEO of NOKJA</b>
                     </p>
                   </div>
                 </div>
@@ -403,84 +406,7 @@
     </div>
     <!--================ End Testimonial Area =================-->
 
-    <!--================ Start Events Area =================-->
-    <div class="events_area">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="main_title">
-              <h2 class="mb-3 text-white">Wkrótce</h2>
-              <p>
-                Wielkimi krokami
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="single_event position-relative">
-              <div class="event_thumb">
-                <img src="img/event/e1.jpg" alt="" />
-              </div>
-              <div class="event_details">
-                <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> sty</div>
-
-                  <div class="time-location">
-                    <p>
-                      <span class="ti-time mr-2"></span> 12:00  - 12:30 
-                    </p>
-                    <p>
-                      <span class="ti-location-pin mr-2"></span> UEK - Nowa Aula
-                    </p>
-                  </div>
-                </div>
-                <p>
-                  Spotkanie organizacyjne, dyskusje na temat rozbudowy i rozwoju UBW.
-                    Strategie i plany na przyszłość. Przyjdź i podziel się z nami swoimi uwagami!
-                </p>
-                <a href="#" class="primary-btn rounded-0 mt-3">Czytaj więcej</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="single_event position-relative">
-              <div class="event_thumb">
-                <img src="img/event/e2.jpg" alt="" />
-              </div>
-              <div class="event_details">
-                <div class="d-flex mb-4">
-                  <div class="date"><span>15</span> sty</div>
-
-                  <div class="time-location">
-                    <p>
-                      <span class="ti-time mr-2"></span> 12:00  - 12:30 
-                    </p>
-                    <p>
-                      <span class="ti-location-pin mr-2"></span> UEK - Nowa Aula
-                    </p>
-                  </div>
-                </div>
-                <p>
-                  Spotkanie organizacyjne, dyskusje na temat rozbudowy i rozwoju UBW.
-                    Strategie i plany na przyszłość. Przyjdź i podziel się z nami swoimi uwagami!
-                </p>
-                <a href="#" class="primary-btn rounded-0 mt-3">Czytaj więcej</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12">
-            <div class="text-center pt-lg-5 pt-3">
-              <a href="#" class="event-link">
-                View All Event <img src="img/next.png" alt="" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--================ End Events Area =================-->
+   
 
     <?php
     require_once('fotter.php');

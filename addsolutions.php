@@ -39,16 +39,7 @@ require_once('navibar.php');
                 <div class="row">
                     <div class="col-lg-7 col-md-7">
                         <h3 class="mb-30 title_color">Dodaj opracowanie</h3>
-
-                       
-  Press enter after you typed.
-  <br />
-  <br />
-  <div class="tag-container">
-    <input  />  
-  </div>
-  
-                      
+            
                         <div class="mt-10">
                             <input type="text" name="Title" placeholder="Tytuł " onfocus="this.placeholder = 'Wpisz'" onblur="this.placeholder = 'Tytuł'" required class="single-input">
                         </div>
@@ -63,12 +54,29 @@ require_once('navibar.php');
                             <div class="form-select"  id="default-select2">
                                 <select name="Category">
                                     <option value="1">Kategoria</option>
-                                    <option value="Medycyna">Medycyna</option>
+                                    <option value="Medycyna">Zarządzanie</option>
                                     <option value="IT">IT</option>
                                     <option value="Ekonomia">Ekonomia</option>
                                     <option value="Matematyka">Matematyka</option>
                                     <option value="Organizacja">Organizacja</option>
                                     <option value="Fizyka">Fizyka</option>
+                                    <option value="Fizyka">Ekologia</option>
+                                    <option value="inna">inna</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group-icon mt-10">
+                            <div class="icon"><i class="ti-location-arrow" aria-hidden="true"></i></div>
+                            <div class="form-select"  id="default-select2">
+                                <select name="Category">
+                                    <option value="1">Branza</option>
+                                    <option value="Medycyna">Medycyna</option>
+                                    <option value="IT">IT</option>
+                                    <option value="Ekonomia">Bankowość</option>
+                                    <option value="Matematyka">Motoryzacja</option>
+                                    <option value="Organizacja">Handel</option>
+                                    <option value="Fizyka">Turystyka</option>
+                                    <option value="Fizyka">inna</option>
                                 </select>
                             </div>
                         </div>
@@ -81,7 +89,16 @@ require_once('navibar.php');
 
                             </div>
                         </div>
-
+                        <div class="input-group-icon mt-5 w-50 ">
+                        <div style="float-left">
+                            <input type="text" name="Autor" placeholder="Autor " onfocus="this.placeholder = 'Wpisz'" onblur="this.placeholder = 'Autor'" required class="single-input">
+                            
+                            </div>
+                            <div style="float-left">
+                            <input type="text" name="opiekun" placeholder="Opiekun naukowy " onfocus="this.placeholder = 'Wpisz'" onblur="this.placeholder = 'Opiekun naukowy'" required class="single-input">
+                            </div>
+                        </div>
+                        
                         <!--Material textarea
 
 
